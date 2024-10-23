@@ -25,6 +25,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    z-index: 10;
     padding: 10px 50px;
     background: var(--yellow);
     box-shadow: 0rem 0.3rem 1rem rgba(0, 0, 0, 0.5);
@@ -51,4 +52,89 @@ nav a {
 
 nav a:hover {
     letter-spacing: 0.2rem;
+}
+
+/* CONTENT */
+section {
+    padding: 7rem 7rem;
+    height: 100vh;
+}
+
+section#home h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+section#home .carousel {
+    width: 1300px;
+    max-width: 100vw;
+    height: 700px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+section#home .carousel .carousel-slider {
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+}
+
+section#home .carousel .carousel-slider img {
+    width: 1300px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+section#home .carousel .buttons {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section#home .carousel .buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+section#home .carousel .dots {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+section#home .carousel .dots li {
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+section#home .carousel .dots li.active {
+    width: 30px;
 }
