@@ -304,3 +304,11 @@ section#message .message-result .table-result td:first-child {
 section#message .message-result .table-result td:nth-child(2) {
     width: 5%;
 }
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #f4f4f4;
+    border: 1px solid #7f7f7f;
+}
