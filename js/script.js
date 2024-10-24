@@ -63,3 +63,17 @@ window.onresize = function(event) {
     reloadcarousel();
 };
 
+// INPUT OUTPUT
+document.getElementById("submit").onclick = function() {
+    const name = document.getElementById('name').value;
+    document.getElementById("output-name").innerText = name;
+
+    const date = document.getElementById('dateBirth').value;
+    document.getElementById("output-dateBirth").innerText = date;
+
+    const gender = document.querySelector('input[name="gender"]:checked').value;
+    document.getElementById("output-gender").innerText = gender;
+
+    const message = document.getElementById('message').value;
+    document.getElementById("output-message").innerText = message;
+}
