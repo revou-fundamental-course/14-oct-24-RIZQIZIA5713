@@ -60,9 +60,16 @@ section {
     height: 100vh;
 }
 
+section h1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 section#home h1 {
     font-size: 2.5rem;
     font-weight: 500;
+    text-transform: capitalize;
 }
 
 section#home .carousel {
@@ -117,7 +124,7 @@ section#home .carousel .dots {
     position: absolute;
     bottom: 10px;
     left: 0;
-    color: #fff;
+    color: var(--white);
     width: 100%;
     margin: 0;
     padding: 0;
@@ -129,7 +136,7 @@ section#home .carousel .dots li {
     list-style: none;
     width: 10px;
     height: 10px;
-    background-color: #fff;
+    background-color: var(--white);
     margin: 10px;
     border-radius: 20px;
     transition: 0.5s;
@@ -202,4 +209,14 @@ section#profile .biography .sci a {
     border-radius: 50%;
     font-size: 1.5rem;
     background: var(--color);
+}
+
+/* PORTFOLIO */
+section#portfolio .portfolio-content {
+    background: #f4f4f4;
+    padding: 3rem 5rem;
+}
+
+section#portfolio .portfolio-content h1:not(:first-child) {
+    margin-top: 1rem;
 }
