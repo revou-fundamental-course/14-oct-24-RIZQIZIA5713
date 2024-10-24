@@ -65,6 +65,9 @@ window.onresize = function(event) {
 
 // INPUT OUTPUT
 document.getElementById("submit").onclick = function() {
+    const currentTime = new Date().toLocaleString();
+    document.getElementById("output-time").innerText = currentTime;
+
     const name = document.getElementById('name').value;
     document.getElementById("output-name").innerText = name;
 

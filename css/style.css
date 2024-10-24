@@ -230,7 +230,7 @@ section#portfolio .portfolio-content h1:not(:first-child) {
 }
 
 /* MESSAGE */
-section#message .message-content {
+section#messageUs .message-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10rem;
@@ -240,28 +240,28 @@ section#message .message-content {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 }
 
-section#message .message-content h1:not(:first-child) {
+section#messageUs .message-content h1:not(:first-child) {
     margin-top: 1rem;
 }
 
-section#message .message-content form {
+section#messageUs .message-content form {
     width: 100%;
 }
 
-section#message .message-content .form-table {
+section#messageUs .message-content .form-table {
     width: 100%;
 }
 
-section#message .message-content .form-table td {
+section#messageUs .message-content .form-table td {
     vertical-align: top;
     padding: 10px;
 }
 
-section#message .message-content .form-table td:first-child {
+section#messageUs .message-content .form-table td:first-child {
     width: 25%;
 }
 
-section#message .message-content input:not([type="radio"]) {
+section#messageUs .message-content input:not([type="radio"]) {
     width: 100%;
     padding: 5px 10px;
     border-radius: 10px;
@@ -269,7 +269,7 @@ section#message .message-content input:not([type="radio"]) {
     border: 1px solid #7f7f7f;
 }
 
-section#message .message-content textarea {
+section#messageUs .message-content textarea {
     width: 100%;
     padding: 5px 10px;
     border-radius: 10px;
@@ -278,7 +278,7 @@ section#message .message-content textarea {
     resize: none;
 }
 
-section#message .message-content button {
+section#messageUs .message-content button {
     width: 100%;
     padding: 10px 15px;
     border-radius: 10px;
@@ -289,25 +289,25 @@ section#message .message-content button {
     cursor: pointer;
 }
 
-section#message .message-result {
+section#messageUs .message-result {
     padding: 2rem 3rem;
     background: var(--white);
     border-radius: 10px;
 }
 
-section#message .message-result .table-result {
+section#messageUs .message-result .table-result {
     width: 100%;
 }
 
-section#message .message-result .table-result td {
+section#messageUs .message-result .table-result td {
     padding: 10px;
 }
 
-section#message .message-result .table-result td:first-child {
+section#messageUs .message-result .table-result td:first-child {
     width: 25%;
 }
 
-section#message .message-result .table-result td:nth-child(2) {
+section#messageUs .message-result .table-result td:nth-child(2) {
     width: 5%;
 }
 
@@ -382,7 +382,7 @@ footer {
     }
 
     /* MESSAGE */
-    section#message .message-content {
+    section#messageUs .message-content {
         grid-template-columns: 1fr;
         padding: 1rem 2rem;
     }
