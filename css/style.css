@@ -215,8 +215,92 @@ section#profile .biography .sci a {
 section#portfolio .portfolio-content {
     background: #f4f4f4;
     padding: 3rem 5rem;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 }
 
 section#portfolio .portfolio-content h1:not(:first-child) {
     margin-top: 1rem;
+}
+
+/* MESSAGE */
+section#message .message-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+    background: #f4f4f4;
+    padding: 3rem 5rem;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+section#message .message-content h1:not(:first-child) {
+    margin-top: 1rem;
+}
+
+section#message .message-content form {
+    width: 100%;
+}
+
+section#message .message-content .form-table {
+    width: 100%;
+}
+
+section#message .message-content .form-table td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+section#message .message-content .form-table td:first-child {
+    width: 25%;
+}
+
+section#message .message-content input:not([type="radio"]) {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #7f7f7f;
+}
+
+section#message .message-content textarea {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #7f7f7f;
+    resize: none;
+}
+
+section#message .message-content button {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 0;
+    background: var(--yellow);
+    color: var(--white);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+section#message .message-result {
+    padding: 2rem 3rem;
+    background: var(--white);
+    border-radius: 10px;
+}
+
+section#message .message-result .table-result {
+    width: 100%;
+}
+
+section#message .message-result .table-result td {
+    padding: 10px;
+}
+
+section#message .message-result .table-result td:first-child {
+    width: 25%;
+}
+
+section#message .message-result .table-result td:nth-child(2) {
+    width: 5%;
 }
